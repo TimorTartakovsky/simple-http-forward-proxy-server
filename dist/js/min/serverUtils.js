@@ -1,0 +1,1 @@
+"use strict";var serverUtils={pageNotFound:function(e){return e.writeHead(404,"text/plain"),e.end("404: file not found."),e},notProxyPage:function(e){return e.writeHead(404,"text/plain"),e.end("404: The request should be sent to proxy 'localhost:3000/proxy/?url=example.com'."),e}};module.exports.serverUtilsFunctions=serverUtils;

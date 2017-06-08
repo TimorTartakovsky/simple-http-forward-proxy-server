@@ -1,0 +1,30 @@
+{
+  "name": "node-http-proxy-server",
+  "version": "1.0.0",
+  "description": "Simple http forward proxy server",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel --presets es2015 src -d dist"
+  },
+  "author": "Timor Tartakovsky",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "grunt": "^1.0.1",
+    "grunt-cli": "1.2.0",
+    "grunt-git": "^1.0.3",
+    "grunt-git-deploy": "^0.3.1",
+    "http": "0.0.0",
+    "minified": "^1.0.1",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "grunt": "1.0.1",
+    "grunt-cli": "1.2.0",
+    "http": "0.0.0",
+    "url": "^0.11.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
